@@ -9,7 +9,7 @@ A modern, opinionated React starter template built with Vite, Tailwind CSS, and 
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
   - Custom container configurations
   - Responsive padding defaults
-  - Custom color scheme
+  - Custom colour scheme
   - Animation utilities
 - 🔧 Modern tooling
   - ESLint configuration for React
@@ -59,7 +59,7 @@ modern-react-starter/
 
 This template includes a custom Tailwind configuration with:
 
-- Custom color scheme (primary, secondary, accent)
+- Custom colour scheme (primary, secondary, accent)
 - Container configurations with responsive padding
 - Custom font family configurations
 - Animation utilities
@@ -76,7 +76,7 @@ This template includes a custom Tailwind configuration with:
 ### Modifying Tailwind Configuration
 
 Edit `tailwind.config.js` to customize:
-- Color schemes
+- Colour schemes
 - Font families
 - Container settings
 - Animations
@@ -94,4 +94,4 @@ Create a `.env.local` file in the root directory for local environment variables
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. Seriously. Remix it! Use your colours instead of mine!
