@@ -1,12 +1,15 @@
-
+import SearchBar from "../views/SearchBar";
+import SearchResults from "../views/SearchResults";
 
 export default function MLALookup() {
-    return(
-        <div>
-            <h2>MLA Finder</h2>
-            <ul>
-                <li></li>
-            </ul>
-        </div>
-    )
+//   const [members, setMembers] = useState([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState([]);
+
+  return (
+    <div>
+      <SearchBar />
+      <SearchResults />
+    </div>
+  );
 }
