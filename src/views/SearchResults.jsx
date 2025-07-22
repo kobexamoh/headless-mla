@@ -15,7 +15,7 @@ export default function SearchResults () {
                 }
 
                 const json = await response.json();
-                console.log(json);
+                setResults(json);
             } catch (error) {
                 console.log(error.message);
         } finally {
