@@ -3,7 +3,7 @@ import Success from "../components/Success";
 import Error from "../components/Error";
 
 export default function SearchResults () {
-    const [results, setResults] = useState(false);
+    const [results, setResults] = useState([]);
     
     useEffect(() => {
         const fetchMembers = async () => {
