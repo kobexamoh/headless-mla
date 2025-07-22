@@ -13,12 +13,17 @@ export default function SearchResults () {
                 if (!response.ok) {
                     throw new Error(`Response status: ${response.status}`);
                 }
-            }
-        } catch (err) {
 
+                const json = await response.json();
+                console.log(json);
+            } catch (error) {
+                console.log(error.message);
         } finally {
+            console.log("Always executed");
+        }
+    };
 
-        }l
+    fetchMembers();
     }, []);
     
     if (results) {
