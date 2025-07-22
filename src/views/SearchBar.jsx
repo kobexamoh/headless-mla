@@ -4,7 +4,7 @@ export default function SearchBar() {
     alert(`You're looking for '${query}'`);
   }
   return (
-    <div class="mt-4">
+    <div className="mt-4">
       <form action={search}>
         <input
           name="search"
