@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Success from "../components/Success";
 import Error from "../components/Error";
 
 export default function SearchResults () {
@@ -27,7 +26,16 @@ export default function SearchResults () {
     }, []);
     
     if (results) {
-        return <Success />
+        return (
+          <div>
+            <p>Results found! Loading results...</p>
+            <ul>
+              {results.map((result) => (
+                <li key={result.id}>{result.title.rendered}</li>
+              ))}
+            </ul>
+          </div>
+        );
     } else {
         // TODO: change to render the NoResults view
         return <Error />
